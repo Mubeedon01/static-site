@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.card {
+  width: min(92vw, 460px);
+  padding: 2rem;
+  border-radius: 12px;
+  background: #1e293b;
+  border: 1px solid #334155;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  border: 0;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: #0f172a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #7dd3fc;
+}
+
+pre {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-radius: 8px;
+  background: #0f172a;
+  color: #86efac;
+  min-height: 2.5rem;
+  white-space: pre-wrap;
+}
