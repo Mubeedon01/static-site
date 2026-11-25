@@ -57,20 +57,5 @@ docker ps
 
 ```bash
 docker stop static-site
-docker rm static-site
+docker rm static-website
 ```
-  ├── app
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-└── nginx.conf
-
-2 directories, 6 files
-
-## Build Docker Image
-
-```bash
-docker build -t static-site:v1.0.0 .
-```
-
-## Run Container
